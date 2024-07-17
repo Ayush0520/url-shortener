@@ -11,7 +11,6 @@ const createTinyURL = asyncHandler(async (req, res, next) => {
   if (!originalUrl) {
     return res.status(400).json({ error: 'Original URL is required' });
   }
-  // Use the environment variable for serverId
   
   const serverId = getContainerId();
   let counter = await Counter.findOne({ serverId });

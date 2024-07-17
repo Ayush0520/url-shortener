@@ -22,8 +22,6 @@ initializeServer(serverId);
 app.use( "/url", require( "./routes/urlRoutes.js" ) );
 app.use( errorHandler );
 
-app.use( errorHandler );
-
 const server = app.listen( port, () =>
 {
     console.log( `Server is running on port ${ port }` );

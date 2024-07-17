@@ -4,7 +4,7 @@ const router = express.Router();
 
 const { createTinyURL, getLongURL } = require('../controllers/urlController');
 
-router.post('/', createTinyURL);
-router.get('/:shortId', getLongURL);
+router.get('/', createTinyURL);
+router.post('/:shortId', getLongURL);
 
 module.exports = router;
