@@ -51,7 +51,7 @@ Before starting, ensure you have the following installed on your system:
 
 ### 1.Clone the Repository
 ```bash
-git clone https://github.com/your-username/url-shortener-distributed-architecture.git
+git clone https://github.com/Ayush0520/url-shortener-distributed-architecture.git
 cd url-shortener-distributed-architecture
 ```
 
