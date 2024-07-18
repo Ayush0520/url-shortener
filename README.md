@@ -1,7 +1,7 @@
 # url-shortener-distributed-architecture
 
 ## Description:
-This project implements a distributed URL shortener system designed to handle high traffic volumes efficiently. It utilizes a Base-62 encoding scheme for generating short URLs and incorporates Apache ZooKeeper for managing distributed counter synchronization across multiple application servers. The system is containerized using Docker to ensure easy deployment, scalability, and replication of a distributed environment on a local computer. Also to ensure high availability, and optimal performance in our distributed URL Shortener system, I implement node balancing using Nginx
+This project implements a distributed URL shortener system designed to handle high traffic volumes efficiently. It utilizes a Base-62 encoding scheme for generating short URLs and incorporates Apache ZooKeeper for managing distributed counter synchronization across multiple application servers. The system is containerized using Docker to ensure easy deployment, scalability, and replication of a distributed environment on a local computer. Also to ensure high availability, and optimal performance in our distributed URL Shortener system, it implements node balancing using Nginx.
 
 ## Table of Contents
 
